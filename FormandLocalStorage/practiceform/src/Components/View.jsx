@@ -4,7 +4,7 @@ import React from "react";
 
 const View = ({ books, deleteBook }) => {
 
-  return books.map((book) => (
+  return (books.map((book) => (
     <tr key={book.isbn}>
       <td> {book.isbn} </td>
       <td> {book.title} </td>
@@ -14,7 +14,7 @@ const View = ({ books, deleteBook }) => {
       Delete
       </td>
     </tr>
-  ));
+  )));
 };
 
 export default View;
