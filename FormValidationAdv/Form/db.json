@@ -1,0 +1,67 @@
+{
+  "finaldata": [
+    {
+      "id": 1,
+      "name": "Mohak",
+      "address": "Kanpur",
+      "gender": "Male",
+      "Salary": 7
+    },
+    {
+      "name": "Mohak Tripathi ",
+      "address": "109/306 A Ram Krishna Nagar Kanpur",
+      "gender": "Male",
+      "salary": "700000",
+      "id": 2
+    },
+    {
+      "name": "Mohak Tripathi ",
+      "address": "109/306 A Ram Krishna Nagar Kanpur",
+      "gender": "Male",
+      "salary": "70000",
+      "id": 3
+    },
+    {
+      "name": "Mohak Tripathi ",
+      "address": "109/306 A Ram Krishna Nagar Kanpur",
+      "gender": "Male",
+      "salary": "70000",
+      "id": 4
+    },
+    {
+      "name": "Rahul Sharma",
+      "address": "1mng Punjab ",
+      "gender": "Male",
+      "salary": "10000",
+      "id": 5
+    },
+    {
+      "name": "Sachin Sharma",
+      "address": "1mng Punjab ",
+      "gender": "Male",
+      "salary": "45000",
+      "id": 6
+    },
+    {
+      "name": "Payal Sharma",
+      "address": "1mng Ludhiana",
+      "gender": "Male",
+      "salary": "555000",
+      "id": 7
+    },
+    {
+      "name": "Yogesh ",
+      "address": "109/306 A Ram Krishna Nagar Kanpur",
+      "gender": "Male",
+      "salary": "10000",
+      "id": 8
+    },
+    {
+      "name": "Yogesh ",
+      "address": "109/306 A Ram Krishna Nagar Kanpur",
+      "gender": "Male",
+      "salary": "10000",
+      "id": 9
+    }
+  ]
+}

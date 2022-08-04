@@ -1,0 +1,70 @@
+{
+  "Data": [
+    {
+      "username": "adom",
+      "email": "vatsal@example.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "adom",
+      "email": "vatsal@example.com",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "username": "admexample.com",
+      "email": "vatsal@example.com",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "username": "admexample.com",
+      "email": "vatsal@example.com",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "username": "admexample.com",
+      "email": "vatsal@example.com",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "username": "virat ",
+      "email": "vatsal@example.com",
+      "password": "123456",
+      "id": 6
+    },
+    {
+      "username": "admin@example.com",
+      "email": "",
+      "password": "123456",
+      "id": 7
+    },
+    {
+      "username": "admin@example.com",
+      "email": "",
+      "password": "123456",
+      "id": 8
+    },
+    {
+      "username": "admin@example.com",
+      "email": "",
+      "password": "123456",
+      "id": 9
+    },
+    {
+      "username": "admin@example.com",
+      "email": "mo@gmail.com",
+      "password": "566879",
+      "id": 10
+    },
+    {
+      "username": "mohak@example.com",
+      "email": "mo@gmail.com",
+      "password": "566879",
+      "id": 11
+    }
+  ]
+}

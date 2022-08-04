@@ -1,0 +1,9 @@
+h3{
+    color: red;
+    display: none;
+}
+
+input:invalid~h3{
+    display:block;
+}
+
