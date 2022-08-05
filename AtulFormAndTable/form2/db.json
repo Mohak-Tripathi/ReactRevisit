@@ -1,0 +1,268 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "mohaktripathi029@gmail.com",
+      "gender": "male",
+      "age": 0,
+      "tenth_score": 89,
+      "twelth_score": 91,
+      "preferred_branch": "law"
+    },
+    {
+      "first_name": "Rahul",
+      "last_name": "Tripathi",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "age": "45",
+      "tenth_score": "78",
+      "twelth_score": "95",
+      "preferred_branch": "",
+      "id": 2
+    },
+    {
+      "first_name": "Rahul",
+      "last_name": "Tripathi",
+      "email": "rahul@gmail.com",
+      "gender": "male",
+      "age": "45",
+      "tenth_score": "78",
+      "twelth_score": "95",
+      "preferred_branch": "",
+      "id": 3
+    },
+    {
+      "first_name": "Rahul",
+      "last_name": "",
+      "email": "",
+      "gender": "male",
+      "age": "",
+      "tenth_score": "78",
+      "twelth_score": "95",
+      "preferred_branch": "",
+      "id": 4
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 5
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "vatsal@example.com",
+      "gender": "",
+      "age": "123",
+      "tenth_score": "110",
+      "twelth_score": "102",
+      "preferred_branch": "",
+      "id": 6
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 7
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 8
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 9
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 10
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 11
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 12
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 13
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "vatsal@example.com",
+      "gender": "",
+      "age": "45",
+      "tenth_score": "17",
+      "twelth_score": "12",
+      "preferred_branch": "",
+      "id": 14
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "vatsal@example.com",
+      "gender": "male",
+      "age": "34",
+      "tenth_score": "78",
+      "twelth_score": "67",
+      "preferred_branch": "science",
+      "id": 15
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "vatsal@example.com",
+      "gender": "male",
+      "age": "34",
+      "tenth_score": "78",
+      "twelth_score": "67",
+      "preferred_branch": "science",
+      "id": 16
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "vatsal@example.com",
+      "gender": "male",
+      "age": "34",
+      "tenth_score": "78",
+      "twelth_score": "67",
+      "preferred_branch": "science",
+      "id": 17
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "vatsal@example.com",
+      "gender": "male",
+      "age": "34",
+      "tenth_score": "78",
+      "twelth_score": "67",
+      "preferred_branch": "science",
+      "id": 18
+    },
+    {
+      "first_name": "Mohak",
+      "last_name": "Tripathi",
+      "email": "vatsal@example.com",
+      "gender": "male",
+      "age": "34",
+      "tenth_score": "78",
+      "twelth_score": "67",
+      "preferred_branch": "science",
+      "id": 19
+    },
+    {
+      "first_name": "mojak",
+      "last_name": "Tripathi",
+      "email": "mojak@gmail.com",
+      "gender": "",
+      "age": "45",
+      "tenth_score": "89",
+      "twelth_score": "69",
+      "preferred_branch": "science",
+      "id": 20
+    },
+    {
+      "first_name": "a",
+      "last_name": "z",
+      "email": "",
+      "gender": "",
+      "age": "24",
+      "tenth_score": "45",
+      "twelth_score": "45",
+      "preferred_branch": "science",
+      "id": 21
+    },
+    {
+      "first_name": "A",
+      "last_name": "",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 22
+    },
+    {
+      "first_name": "",
+      "last_name": "Y",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 23
+    },
+    {
+      "first_name": "CY",
+      "last_name": "ZY",
+      "email": "",
+      "gender": "",
+      "age": 0,
+      "tenth_score": 0,
+      "twelth_score": 0,
+      "preferred_branch": "",
+      "id": 24
+    }
+  ]
+}
