@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import axios from "axios";
-// import "./ShowStudent.css"
+import "./ShowStudent.css";
 
 const ShowStudent = () => {
   const [students, setStudents] = useState([]);
@@ -26,26 +26,22 @@ const ShowStudent = () => {
       });
   }
 
-  function handleChange(e){
+  function handleChange(e) {
     const { name, value } = e.target;
 
-    
-    setSortControls({...sortControls, [name]: value})
+    setSortControls({ ...sortControls, [name]: value });
   }
 
-
-
-
   function handleUpdate(data) {
-//    console.log(data, "data")
-   
+    //    console.log(data, "data")
+
     setStudents(data);
   }
 
   function sortData(studentData) {
     const { sortby, sortorder } = sortControls;
 
-    console.log(sortby, sortorder, "hehe")
+    console.log(sortby, sortorder, "hehe");
 
     const tempData = [...studentData];
 
@@ -65,14 +61,14 @@ const ShowStudent = () => {
         //   return 0;
         // }
         if (sortorder === "desc") {
-            if (a[sortby] > b[sortby]) return -1;
-            if (a[sortby] < b[sortby]) return 1;
-            return 0;
-          } else {
-            if (a[sortby] > b[sortby]) return 1;
-            if (a[sortby] < b[sortby]) return -1;
-            return 0;
-          }
+          if (a[sortby] > b[sortby]) return -1;
+          if (a[sortby] < b[sortby]) return 1;
+          return 0;
+        } else {
+          if (a[sortby] > b[sortby]) return 1;
+          if (a[sortby] < b[sortby]) return -1;
+          return 0;
+        }
       });
     } else {
       tempData.sort(function (a, b) {
@@ -83,9 +79,14 @@ const ShowStudent = () => {
         }
       });
     }
-console.log(tempData, "hehe")
+    console.log(tempData, "hehe");
 
     return tempData;
+  }
+
+  function handleDelete(id) {
+console.log(id)
+    return setStudents(students.filter((elem) => elem.id !== id));
   }
 
   return (
@@ -118,9 +119,9 @@ console.log(tempData, "hehe")
         </div>
       </div>
 
-      <table className='table' style={{border: '1px solid black'}}>
+      <table className='table' style={{ border: "1px solid black" }}>
         <thead>
-          <tr style={{border: '1px solid black'}}>
+          <tr className='row'>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Email</th>
@@ -135,7 +136,7 @@ console.log(tempData, "hehe")
         <tbody>
           {students.map((s) => {
             return (
-              <tr style={{border: '1px solid black'}}>
+              <tr style={{ border: "1px solid black" }}>
                 <td> {s.first_name} </td>
                 <td> {s.last_name} </td>
                 <td> {s.email} </td>
@@ -143,6 +144,7 @@ console.log(tempData, "hehe")
                 <td> {s.tenth_score} </td>
                 <td className='twelth_score'>{s.twelth_score}</td>
                 <td className='preferred_branch'>{s.preferred_branch}</td>
+                <button onClick={()=>handleDelete(s.id)}> Delete </button>
               </tr>
             );
           })}

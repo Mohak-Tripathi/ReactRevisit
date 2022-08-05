@@ -1,0 +1,17 @@
+.controls{
+display: flex;
+margin: 10px;
+align-items: center;
+border: 5px solid black;
+}
+.controls > div{
+    margin: 10px;
+}
+
+
+
+table,tbody, td, th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
